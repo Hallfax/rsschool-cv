@@ -4,6 +4,7 @@
 ## Junior Frontend Developer
 ___
 # Contact information:
+
 **Phone:** +50 534 416 36 88
 
 **E-mail:** <32hallfax@gmail.com>
