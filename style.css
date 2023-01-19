@@ -1,0 +1,30 @@
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid rgb(115, 244, 208);
+    padding: 10px;
+}  
+.larger-image {
+    width: 200px;
+}
+.code {
+    width: 60%;
+    border: 3px solid #292a29;
+    background-color: rgb(200, 196, 196);
+    padding: 10px;
+}  
+
+.footer-list {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /*Отступ значения полей */
+    list-style-type: none;  /* Уберем точки у li элементов */
+    display: flex;/* Используем flexbox */
+    justify-content: space-between; 
+    align-items: center;    /* Дополнительно сделаем вертикальное выравнивание */
+   }
+.footer-item {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 10px; /* Поля вокруг текста */
+}

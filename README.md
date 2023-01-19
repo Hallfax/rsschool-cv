@@ -1,1 +1,1 @@
-https://Hallfax.github.io/rsschool-cv/cv
+https://hallfax.github.io/rsschool-cv/
