@@ -35,11 +35,11 @@
      <p><strong><em>Bubble Sort Algorithm..</em></strong></p>
     <div class="code">
     <pre>
-    const bubbleSort = arr =&gt {
-      for (let i = 0, endI = arr.length - 1; endI &gt i; i++) {
+    const bubbleSort = arr =&gt; {
+      for (let i = 0, endI = arr.length - 1; endI &gt; i; i++) {
         let wasSwap = false;
-        for (let j = 0, endJ = endI - i; endJ &gt j; j++) {
-          if (arr[j] &gt arr[j + 1]) {
+        for (let j = 0, endJ = endI - i; endJ &gt; j; j++) {
+          if (arr[j] &gt; arr[j + 1]) {
             [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
             wasSwap = true;
           }
